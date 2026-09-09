@@ -4,6 +4,7 @@ from pynput.keyboard import Controller, Key
 import random
 from questions import TotalSearchs
 
+
 #variable de pynput para controlar presione de teclas
 tcl = Controller()
 

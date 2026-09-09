@@ -1,4 +1,4 @@
-# ScreenRwards v0.1.0-alpha
+# ScreenRwards v0.1.1-alpha <img src="https://bing.com/th?id=OMR.Medals.Gold-256.png&pid=Rewards&w=52&h=52&p=0&c=1&qlt=100&r=0" width="60">
 
 Automatización en Python para la ejecución de búsquedas automáticas y la acumulación de puntos diarios en Microsoft Rewards.
 
@@ -9,6 +9,10 @@ El proyecto incorpora pausas variables, movimientos e intervalos de escritura pa
 > ⚠️ **Importante:** ninguna técnica de automatización puede garantizar que una cuenta no sea detectada o sancionada. El objetivo de este proyecto es **reducir el riesgo asociado a una automatización demasiado predecible**, no garantizar la ausencia de detección.
 
 ---
+
+<img src="https://github.com/rodbarrdaniel-coder/ScreenRwards/blob/main/img/img1.jpeg?raw=true" align="center">
+
+
 
 ## ✨ Características
 
@@ -24,7 +28,7 @@ El proyecto incorpora pausas variables, movimientos e intervalos de escritura pa
 
 * **🔄 Automatización de tareas repetitivas:** permite automatizar las búsquedas diarias.
 
-* **❤ +34k de preguntas random**.
+* **❤️ Más de 34.000 preguntas aleatorias disponibles.
 
 ---
 
@@ -127,7 +131,6 @@ git clone https://github.com/rodbarrdaniel-coder/ScreenRwards.git
 cd ScreenRwards
 ```
 
-
 ### 2. Crear el entorno virtual
 
 Se recomienda utilizar un entorno virtual para mantener las dependencias del proyecto aisladas del resto de instalaciones de Python.
@@ -155,8 +158,9 @@ Si se ha activado correctamente, aparecerá `(.venv)` al principio de la línea 
 Con el entorno virtual activado:
 
 ```powershell
-python -m pip install pyautogui pynput pillow
+python -m pip install pyautogui pynput pillow keyboard
 ```
+---
 
 #### Dependencias utilizadas
 
@@ -167,6 +171,7 @@ python -m pip install pyautogui pynput pillow
 | `Pillow`    | Procesamiento de imágenes y pixeles funciones de `pyautogui` "NO OBLIGATORIO".   |
 | `time`      | Control de tiempos y pausas.                                                     |
 | `random`    | Generación de valores aleatorios.                                                |
+| `keyboard ` | para interrumpir el script rapidamente con la tecla shift                        |  
 
 > `time` y `random` forman parte de la biblioteca estándar de Python, por lo que no es necesario instalarlas mediante `pip`.
 
@@ -175,8 +180,12 @@ python -m pip install pyautogui pynput pillow
 Con el entorno virtual activado:
 
 ```powershell
-python main.py
+python launcher.py
 ```
+
+
+## ¿como pausar?
+ 1. **solo debes presionar la tecla shift**
 
 ---
 
@@ -187,6 +196,7 @@ ScreenRwards/
 │
 ├── .venv/              # Entorno virtual
 ├── script.py          # Funciones relacionadas con Rewards
+├── launcher.py          # script principal para ejecutar todo mas facil
 ├── questions.py        # Funciones relacionadas con búsquedas/preguntas
 ├── README.md           # Documentación
 └── LICENSE             # Licencia del proyecto
@@ -243,6 +253,6 @@ Este es uno de los aspectos que se pretende mejorar en futuras versiones.
 
 ---
 
-**ScreenRwards v0.1.0-alpha**
+**ScreenRwards v0.1.1-alpha**
 
 Proyecto desarrollado como parte de un proceso de aprendizaje en Python.
