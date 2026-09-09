@@ -1,0 +1,7 @@
+__pycache__/
+.venv
+gatcha.py
+*.json
+main.py
+coords.py
+touch.py
