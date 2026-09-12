@@ -1,4 +1,4 @@
-# ScreenRwards v0.1.1-alpha <img src="https://bing.com/th?id=OMR.Medals.Gold-256.png&pid=Rewards&w=52&h=52&p=0&c=1&qlt=100&r=0" width="60">
+# ScreenRwards v0.2.1-alpha <img src="https://bing.com/th?id=OMR.Medals.Gold-256.png&pid=Rewards&w=52&h=52&p=0&c=1&qlt=100&r=0" width="60">
 
 Automatización en Python para la ejecución de búsquedas automáticas y la acumulación de puntos diarios en Microsoft Rewards.
 
@@ -14,7 +14,7 @@ El proyecto incorpora pausas variables, movimientos e intervalos de escritura pa
 
 
 
-## ✨ Características
+## <img src="https://img.icons8.com/?size=80&id=TYLYjHfLZPH2&format=gif&color=f7f7f7" width="50"> Características
 
 * **🖱️ Control del ratón:** interacción con la interfaz gráfica mediante `pyautogui`.
 
@@ -28,7 +28,7 @@ El proyecto incorpora pausas variables, movimientos e intervalos de escritura pa
 
 * **🔄 Automatización de tareas repetitivas:** permite automatizar las búsquedas diarias.
 
-* **❤️ Más de 34.000 preguntas aleatorias disponibles.
+* ** <img src="https://img.icons8.com/?size=48&id=bQUXBvTNh8MI&format=gif&color=f7f7f7" width="60"> Más de 34.000 preguntas aleatorias disponibles.
 
 ---
 
@@ -58,7 +58,7 @@ Además, el programa introduce cierta variabilidad en los tiempos de espera y en
 
 ---
 
-## 💡 Consejos de uso
+## 💡 Consejos de uso <img src="https://img.icons8.com/?size=48&id=IuQ9m7nKTsmJ&format=gif&color=f7f7f7", width="50">
 
 ### Estado del proyecto
 
@@ -76,6 +76,11 @@ Se recomienda tener conocimientos básicos sobre:
 * Instalación de dependencias mediante `pip`.
 
 > 💡 **Consejo:** antes de iniciar el programa, asegúrate de tener Microsoft Edge instalado y haber iniciado sesión con tu cuenta de Microsoft.
+
+## preview
+<img src="https://github.com/rodbarrdaniel-coder/ScreenRwards/blob/main/img/GatchaPass.gif?raw=true" align="center">
+
+---
 
 ---
 
@@ -100,6 +105,11 @@ El desarrollador no se hace responsable de las consecuencias derivadas del uso d
 
 ---
 
+
+
+
+
+
 ## ⚖️ Ventajas y desventajas
 
 ### ✅ Ventajas
@@ -120,7 +130,7 @@ El desarrollador no se hace responsable de las consecuencias derivadas del uso d
 
 ---
 
-## 🛠️ Requisitos e instalación
+## <img src="https://img.icons8.com/?size=80&id=kQfYb9BCJ7uL&format=gif&color=f7f7f7"> Requisitos e instalación
 
 ### 1. Clonar el repositorio
 
@@ -227,32 +237,13 @@ Eres libre de utilizar, modificar y distribuir este código de acuerdo con las c
 
 ---
 
-## 📝 Nota del desarrollador
+## <img src="https://icons8.com/icon/itfLfGAHyRna/document" width0="50"> paches y actualizaciones (updates) 
 
-Este es mi **primer repositorio público** y forma parte de mi proceso de aprendizaje y mejora constante en Python y desarrollo de software.
+1. **correcion de bug al iniciar**
+2. **elecion de resoliciones para un uso mas general**
+3. **valores mas precisos en la interaccion del mouse**
+4. **fallo de limite de pantalla fail-safe desactivado**
 
-Por este motivo, pueden existir errores, problemas de compatibilidad o partes del código que todavía puedan mejorarse.
-
-Cualquier sugerencia o comentario constructivo es bienvenido. 🙂
-
-por sierto lo probe en gatcha y efectivamente pasa los estandares de no soy un robot
-
-## Mi experiencia
-
-El proyecto lleva de 2 a 4 semanas de uso personal, lo que me ha permitido ir realizando ajustes y mejoras en el sistema de automatización y hasta el momento sigue funcionando.
-
-Aun así, los resultados pueden variar dependiendo de factores como la configuración del equipo, resolución de pantalla, navegador y cambios realizados en Microsoft Rewards.
-
-### ⚠️ Compatibilidad con la resolución
-
-El proyecto fue desarrollado inicialmente en un portátil con una resolución de **1366 × 768 píxeles**.
-
-Debido a que algunas acciones utilizan posiciones concretas del ratón, pueden producirse errores al utilizar el programa con otras resoluciones, escalas de pantalla o configuraciones diferentes.
-
-Este es uno de los aspectos que se pretende mejorar en futuras versiones.
-
----
-
-**ScreenRwards v0.1.1-alpha**
+**ScreenRwards v0.2.1-alpha**
 
 Proyecto desarrollado como parte de un proceso de aprendizaje en Python.
