@@ -14,7 +14,7 @@ El proyecto incorpora pausas variables, movimientos e intervalos de escritura pa
 
 
 
-## <img src="https://img.icons8.com/?size=80&id=TYLYjHfLZPH2&format=gif&color=f7f7f7" width="50"> Características
+## <img src="https://img.icons8.com/?size=80&id=TYLYjHfLZPH2&format=gif&color=f7f7f7" width="30"> Características
 
 * **🖱️ Control del ratón:** interacción con la interfaz gráfica mediante `pyautogui`.
 
@@ -28,7 +28,7 @@ El proyecto incorpora pausas variables, movimientos e intervalos de escritura pa
 
 * **🔄 Automatización de tareas repetitivas:** permite automatizar las búsquedas diarias.
 
-* ** <img src="https://img.icons8.com/?size=48&id=bQUXBvTNh8MI&format=gif&color=f7f7f7" width="60"> Más de 34.000 preguntas aleatorias disponibles.
+* ** <img src="https://img.icons8.com/?size=48&id=bQUXBvTNh8MI&format=gif&color=f7f7f7" width="30"> Más de 34.000 preguntas aleatorias disponibles.
 
 ---
 
@@ -58,7 +58,7 @@ Además, el programa introduce cierta variabilidad en los tiempos de espera y en
 
 ---
 
-## 💡 Consejos de uso <img src="https://img.icons8.com/?size=48&id=IuQ9m7nKTsmJ&format=gif&color=f7f7f7", width="50">
+## 💡 Consejos de uso <img src="https://img.icons8.com/?size=48&id=IuQ9m7nKTsmJ&format=gif&color=f7f7f7" width="30">
 
 ### Estado del proyecto
 
