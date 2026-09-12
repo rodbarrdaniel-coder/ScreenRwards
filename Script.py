@@ -5,12 +5,77 @@ import random
 from questions import TotalSearchs
 
 
+resolutions = ["", "1) 1366 x 768", "2) 1600 x 900", "3) 1920 x 1080", "4) 2560 x 1440", "5) 3840 x 2160",]
+
+resolutionX = 0
+resolutionY = 0
+
+movemntTest = random.uniform(0,0)
+movemntTest2 = random.uniform(0,0)
+
+
+for resolutions in resolutions:
+    print(resolutions)
+
+msg = int(input("elige tu resolucion de pantalla: "))
+
+
+
+if msg == 1:
+    resolutionX = 1366
+    resolutionY = 768
+
+    
+elif msg == 2:
+   resolutionX = 1600
+   resolutionY = 900
+
+
+
+elif msg == 3:
+   resolutionX = 1920
+   resolutionY = 1080
+
+
+
+elif msg == 4:
+   resolutionX = 2560
+   resolutionY = 1440
+
+
+
+elif msg == 5:
+   resolutionX = 3840
+   resolutionY = 2160
+else:
+   totalResolutionsX = [1366,1600,1920,2560,3840] 
+   totalResolutionsY = [768,900,1080,1440,2160] 
+   resolutionX = random.choice(totalResolutionsX)
+   resolutionY = random.choice(totalResolutionsY)
+   print("resolucion random elegida")
+
+
+   
+
+print("resolucion", resolutionX, "x", resolutionY, "elejida")
+
+
+
+movemntTest = resolutionX - 7
+movemntTest2 = resolutionY/2
+    
+
+print("recuerda, si quieres detenerme solo presiona la tecla shift...")
+
+
 #variable de pynput para controlar presione de teclas
 tcl = Controller()
 
 gui.PAUSE = 0
 gui.MINIMUM_DURATION = 0
 gui.MINIMUM_SLEEP = 0
+gui.FAILSAFE = False
+
 
 searchs = TotalSearchs
 vuelta = 0
@@ -20,13 +85,14 @@ intentos = 0
 intentRewards = 0
 repo = "https://github.com/rodbarrdaniel-coder/ScreenRwards"
 
-#funciones de tecleado
 def movimientoRandom():
      duracion = random.uniform(0.4,1)
-     coordX = random.uniform(0,1366)
-     coordY = random.uniform(0,1366)
+     coordX = random.uniform(0,resolutionX)
+     coordY = random.uniform(0,resolutionY)
      gui.moveTo(coordX,coordY,duration=duracion,)
      time.sleep(0.4)
+
+#funciones de tecleado
 
 def pressControl_T():
    tcl.press(Key.ctrl)
@@ -68,15 +134,14 @@ def HumandsIntervals():
    return intervalos
 
 
-movemntTest = random.uniform(237,683)
-movemntTest2 = random.uniform(132,700)
+
 
 #este while puede ser mas rapido si quieres ya que estas fuera del  "modificalo a tu gusto"
 while True:
     gui.press("win")
     time.sleep(0.2)
-    gui.write("edge", interval=0.01)
-    time.sleep(0.1)
+    gui.write("edge", interval=0.1)
+    time.sleep(0.5)
     gui.press("enter")
     time.sleep(8)
     gui.press("f11")
@@ -87,6 +152,7 @@ while True:
 
 while True:
     movimientoRandom()
+    print(resolutionX,resolutionY)
     time.sleep(1)
     presscontrol_l()
     time.sleep(0.2)
@@ -105,7 +171,7 @@ while True:
     gui.press("enter")
 
     time.sleep(2)
-    gui.moveTo(1353,movemntTest2, duration=0.7, tween=gui.easeInOutQuad)
+    gui.moveTo(movemntTest,movemntTest2, duration=0.7, tween=gui.easeInOutQuad)
     gui.click()
     time.sleep(1)
     intentos += 1
@@ -153,5 +219,5 @@ while intentos == 21:
    intentRewards += 1
 
    if intentRewards == 1:
-      print("todo listo")
+      print("todo listo por hoy")
       break
